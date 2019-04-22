@@ -8,7 +8,7 @@ public class SelectionTest {
 
   @Test
   public void sort() {
-    int[] arr = SortTest.initArrr(9);
+    int[] arr = SortTest.initArr(9);
     int[] sortedArr = Selection.sort(arr);
     assertTrue(SortTest.checkSort(sortedArr));
    }

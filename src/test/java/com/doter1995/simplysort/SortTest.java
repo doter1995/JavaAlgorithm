@@ -2,7 +2,7 @@ package com.doter1995.simplysort;
 
 public class SortTest {
 
-  static public int[] initArrr(int length) {
+  static public int[] initArr(int length) {
     int[] arr = new int[length];
     for (int i = 0; i < arr.length; i++) {
       arr[i] = (int) (Math.random() * length * 10);
